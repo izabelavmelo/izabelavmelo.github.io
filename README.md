@@ -1,2 +1,2 @@
 # izabelamelo.github.io
-Currículo
+Currículo de Izabela Melo
