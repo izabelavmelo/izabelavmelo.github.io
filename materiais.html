@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Izabela Melo</title>
-        <meta name="description" content="Site pessoal da programadora Izabela Melo. Aqui, você conhece minhas experiências, minhas crenças da área em que atuo, assim como encontra materiais de programação para iniciantes.">
+        <title>Materiais de programação</title>
+        <meta name="description" content="Materiais gratuitos de programação para iniciantes">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -26,7 +26,12 @@
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/materiais.css">
         <link rel="stylesheet" href="css/index.css">
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -43,32 +48,40 @@
         </header>
 
         <main id="maincontent" class="main-container">
-            <section id="about-me" class="section-container">
-                <div class="section-content" role="article">
-                    <p class="my-role">Desenvolvedora de software</p>
-                    <p class="my-little-description">Guiada por propósitos e equilíbrio entre vida profissional/pessoal, defensora (e aprendiz) de uma web mais acessível</p>
-                    <img class="my-photo" src="img/izabela.jpg">
-                    <p class="my-name">Izabela Melo</p>
-                    <a
-                      class="my-linkedin"
-                      href="https://www.linkedin.com/in/izabelamelo/"
-                      target="_blank"
-                    >
-                        https://www.linkedin.com/in/izabelamelo/
-                    </a>
+            <section class="description-container">
+                <div class="description-content" role="article">
+                    <p class="my-role">Programação para todas as pessoas</p>
+                    <p class="contents-description">
+                        Nesta página, você encontrará diversos materiais relacionados à programação. Sinta-se à vontade para enviar uma mensagem para o meu 
+                        <a
+                        href="https://www.linkedin.com/in/izabelamelo/"
+                        target="_blank"
+                      >
+                          LinkedIn
+                      </a> em caso de dúvida ou sugestão.
+                    </p>
                 </div>
             </section>
 
-            <section id="description" class="section-container apresentation-container">
-                <div class="section-content">
-                    <p class="apresentation-name">Oi, meu nome é Izabela! Seja bem vinda(o)!</p>
-                    <p class="apresentation-description pb-4">
-                        Sou uma Maceioense, com coração Paraibano.
-                        Me motiva ter um propósito no meu trabalho e conviver com pessoas abertas à vulnerabilidade do ser humano.
-                    </p>
-                    <p class="apresentation-description pb-4">
-                        Atualmente, estou interessada no tema de acessibilidade em produtos digitais pois acredito que todas as pessoas merecem ser incluídas em todos os espaços.
-                    </p>
+            <section id="contents" class="contents-container">
+                <div class="contents-content">
+                    <div class="cards-content">
+                        <a class="card-personal" href="conteudo/git.html">
+                            <img class="card-img-top" src="img/git.png" />
+                            <div class="card-body">
+                                <p class="content-title">Git</p>
+                                <p class="content-description">Aprenda os principais comandos de Git e veja algumas referências de estudo</p>
+                            </div>
+                        </a>
+    
+                        <!-- <a class="card-personal" href="conteudo/github.html">
+                            <img class="card-img-top" src="img/github.svg" />
+                            <div class="card-body">
+                                <p>GitHub</p>
+                                <p>Aprenda os principais comandos sobre GitHub e veja algumas referências de estudo.</p>
+                            </div>
+                        </a> -->
+                    </div>
                 </div>
             </section>
         </main>
@@ -82,7 +95,5 @@
             </nav>
         </footer>
 
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
 </html>
